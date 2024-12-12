@@ -38,8 +38,12 @@
 }
 
 .last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 465px;
     border: 1px solid black;
+    align-content: center;
 }
 
 .footer{
@@ -118,4 +122,17 @@
 .footerbox{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.lastbox{
+    width: 486px;
+    height: 464px;
+    text-align: left;
+}
+
+.secondLastbox{
+    width: 371px;
+    height: 384px;
 }
