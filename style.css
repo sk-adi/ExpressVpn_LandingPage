@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,37 +6,35 @@
 }
 
 
-#navbar{
+#navbar {
     position: sticky;
     top: 0;
     background-color: #f9f8f2;
     height: 80px;
-    
+
 }
 
-.top{
+.top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     height: 786px;
     background-color: #f9f8f2;
+    align-items: center;
+
 }
 
-.fbox{
-    padding-bottom: 8rem;
-    height: 502px;
-    width: 528px;
-    max-width: 58.3%;
-}
 
-.middle{
+.middle {
     height: 1450px;
 }
 
-.reviews{
+.reviews {
     height: 830px;
-    border: 1px solid black;
     background-color: #f9f8f2;
 }
 
-.last{
+.last {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,12 +42,12 @@
     align-content: center;
 }
 
-.footer{
+.footer {
     height: 100px;
     background-color: black;
 }
 
-.fline{
+.fline {
     line-height: 1;
     font-weight: 500;
     font-size: 6.4rem;
@@ -61,7 +59,7 @@
 
 
 
-.sline{
+.sline {
     margin-bottom: 2rem;
     font-size: 1.4rem;
     line-height: 1.33;
@@ -70,7 +68,7 @@
     font-family: sans-serif;
 }
 
-.trial{
+.trial {
     width: 344px;
     height: 60px;
     border-radius: 30px;
@@ -82,12 +80,12 @@
     margin-bottom: 2rem;
 }
 
-.trial:hover{
+.trial:hover {
     background-color: yellow;
     color: black;
 }
 
-.lastline{
+.lastline {
     width: 344px;
     font-weight: 500;
     letter-spacing: .14rem;
@@ -97,55 +95,64 @@
     margin-left: 35px;
 }
 
-.sbox{
-    width: 800px;
+.sbox {
     height: 600px;
+    width: 692px;
 }
 
-.topsecond{
+/* .fbox{
+    padding-bottom: 8rem;
+    height: 502px;
+    width: 528px;
+    max-width: 58.3%;
+} */
+
+
+.topsecond {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 1200px;
     height: 785px;
 }
 
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-    
+
 }
-.footerbox{
+
+.footerbox {
     display: flex;
     justify-content: space-between;
 }
 
 
 
-.lastbox{
+.lastbox {
     width: 486px;
     height: 464px;
 
 }
 
-.secondLastbox{
+.secondLastbox {
     width: 371px;
     height: 384px;
     text-align: left;
     padding-top: 10%;
 }
 
-h3{
+h3 {
     font-size: 3.2rem;
     line-height: 1.25;
-    font-family: sans-serif
-    font-feature-settings: "liga";
+    font-family: sans-serif font-feature-settings: "liga";
     font-weight: 500;
 }
 
-.lastbox3{
+.lastbox3 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 28px;
     margin-bottom: 4rem;
@@ -154,7 +161,7 @@ h3{
 }
 
 
-.mfsonep{
+.mfsonep {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 28px;
     margin-bottom: 4rem;
@@ -162,7 +169,7 @@ h3{
     font-weight: 400;
 }
 
-.button{
+.button {
     background-color: white;
     border-color: #0f866c;
     color: #0f866c;
@@ -174,75 +181,77 @@ h3{
     font: bold;
 }
 
-.button:hover{
+.button:hover {
     background-color: yellow;
     color: black;
     border: none;
-    
+
 }
 
 
 
-.middlefirst{
+.middlefirst {
     height: 541px;
 }
-.middlesecond{
+
+.middlesecond {
     height: 292px;
 }
 
-.middlethird{
+.middlethird {
     height: 639.666666667px;
 }
 
 
-h2{
+h2 {
     font-size: 46px;
     font-weight: 500;
 
 }
 
-.useon{
+.useon {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
-.mff{
+.mff {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
 
 
-.mfs{
+.mfs {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
 
 
-.mfsone{
+.mfsone {
     text-align: right;
     width: 400px;
     height: 366px;
     margin-left: 5.33%;
     padding-bottom: 30%;
 }
-.mfstwo{
+
+.mfstwo {
     width: 500px;
     height: 441px;
     margin-left: 5%;
-    
+
 }
 
 
-.getvpn{
+.getvpn {
     width: 232px;
     height: 60px;
     background-color: #0f866c;
@@ -254,13 +263,13 @@ img{
 }
 
 
-.getvpn:hover{
+.getvpn:hover {
     background-color: yellowgreen;
     color: black;
 }
 
 
-.seeall{
+.seeall {
     font-size: 16px;
     font-weight: 400;
     color: #0f866c;
@@ -271,7 +280,7 @@ img{
 }
 
 
-.mfms{
+.mfms {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,24 +289,119 @@ img{
 }
 
 
-.mfmstwo{
+.mfmstwo {
     width: 500px;
     height: 232px;
     margin-left: 5%;
 }
 
 
-.mfmsone{
+.mfmsone {
     text-align: right;
     width: 400px;
     height: 192px;
     margin-left: 5.33%;
 }
 
-.mfmstwop{
+.mfmstwop {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 28px;
     margin-bottom: 2rem;
     font-size: 16px;
     font-weight: 400;
+}
+
+.reviewhead {
+    text-align: center;
+    height: 100px;
+    margin-top: 4rem;
+}
+
+.reviewtab {
+    text-align: center;
+}
+
+.reviewbutton {
+    width: 150px;
+    background-color: #f9f8f2;
+    border: none
+}
+
+
+.reviewbutton:hover {
+    border-bottom: 2px solid black;
+    
+}
+
+hr {
+    height: 2px;
+    background-color: gray;
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 310px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px;
+
+}
+
+.cardsfirst {
+    padding-right: 15px;
+}
+
+.cardssecond {
+    padding-left: 15px;
+}
+
+.middleCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 310px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px;
+}
+
+.secondcardbox{
+    width: 300px;
+    height: 250px;
+}
+
+
+h4{
+    height: 28px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secondcard{
+    height: 84px;
+    
+}
+
+
+.secondcardlast{
+    height: 81px;
+    margin-top: 38px;
+}
+
+.insidesecondcard{
+    display: flex;
+    justify-content: space-between;
+
 }
