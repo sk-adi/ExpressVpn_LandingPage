@@ -27,8 +27,7 @@
 }
 
 .middle{
-    height: 1919px;
-    border: 1px solid black;
+    height: 1450px;
 }
 
 .reviews{
@@ -41,8 +40,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 465px;
-    border: 1px solid black;
+    height: 663px;
     align-content: center;
 }
 
@@ -129,10 +127,177 @@
 .lastbox{
     width: 486px;
     height: 464px;
-    text-align: left;
+
 }
 
 .secondLastbox{
     width: 371px;
     height: 384px;
+    text-align: left;
+    padding-top: 10%;
+}
+
+h3{
+    font-size: 3.2rem;
+    line-height: 1.25;
+    font-family: sans-serif
+    font-feature-settings: "liga";
+    font-weight: 500;
+}
+
+.lastbox3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    margin-bottom: 4rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.mfsonep{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    margin-bottom: 4rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button{
+    background-color: white;
+    border-color: #0f866c;
+    color: #0f866c;
+    width: 235px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-family: Helvetica;
+    font: bold;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+    border: none;
+    
+}
+
+
+
+.middlefirst{
+    height: 541px;
+}
+.middlesecond{
+    height: 292px;
+}
+
+.middlethird{
+    height: 639.666666667px;
+}
+
+
+h2{
+    font-size: 46px;
+    font-weight: 500;
+
+}
+
+.useon{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.mff{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+.mfs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.mfsone{
+    text-align: right;
+    width: 400px;
+    height: 366px;
+    margin-left: 5.33%;
+    padding-bottom: 30%;
+}
+.mfstwo{
+    width: 500px;
+    height: 441px;
+    margin-left: 5%;
+    
+}
+
+
+.getvpn{
+    width: 232px;
+    height: 60px;
+    background-color: #0f866c;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.getvpn:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+.seeall{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f866c;
+    line-height: 28px;
+    text-underline-offset: 5px;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.mfms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 192px;
+
+}
+
+
+.mfmstwo{
+    width: 500px;
+    height: 232px;
+    margin-left: 5%;
+}
+
+
+.mfmsone{
+    text-align: right;
+    width: 400px;
+    height: 192px;
+    margin-left: 5.33%;
+}
+
+.mfmstwop{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 400;
 }
